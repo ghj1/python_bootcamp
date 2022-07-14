@@ -1,6 +1,7 @@
 # 카이사르 암호 
-from wsgiref.util import shift_path_info
+from basic.section8_art import logo
 
+print(logo)
 
 alphabet = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
 direction = input("Type 'encode' to encrypt, type 'decode' to decrypt:\n")
